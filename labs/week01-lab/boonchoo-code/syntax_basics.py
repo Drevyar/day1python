@@ -5,9 +5,9 @@ Learn about variables, data types, and basic Python syntax.
 
 # Exercise 1: Variables and Assignment
 # Create variables for the following information about yourself:
-name = "Your Name Here"  # Replace with your actual name
-age = 20  # Replace with your actual age
-height = 5.8  # Replace with your height in feet
+name = "Mafueng"  # Replace with your actual name
+age = 19  # Replace with your actual age
+height = 170 # Replace with your height in feet
 is_student = True  # True or False
 
 # Print all variables
@@ -77,19 +77,19 @@ print("a =", a, "b =", b, "c =", c)
 # Complete the following assignments:
 
 # String variable containing your favorite color
-favorite_color = 
+favorite_color = input('What is your favorite color :')
 
 # Integer variable with the current year
-current_year = 
+current_year = int(input('What year you were born :'))
 
 # Float variable with your favorite number (with decimal)
-favorite_number = 
+favorite_number = int(input('waht is your favorite number :')) 
 
 # Boolean variable indicating if you like pizza
-likes_pizza = 
+likes_pizza = input('Do you like pizze (Yes / No) :').lower() == 'yes'
 
 # Print all variables with descriptive messages
-print("My favorite color is:", favorite_color)
-print("The current year is:", current_year)
-print("My favorite number is:", favorite_number)
-print("Do I like pizza?", likes_pizza)
+print("My favorite color is: ", favorite_color)
+print("The current year is: ", current_year)
+print("My favorite number is: ", favorite_number)
+print("Do I like pizza? ", likes_pizza)
