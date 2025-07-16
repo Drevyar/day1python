@@ -39,4 +39,3 @@ print(f'Your weight : {kilograms:.2f}')
 print(f'Yoyr height : {height:.2f}')
 print(f'Your Bmi is : {bmi:.2f}')
 
-print
