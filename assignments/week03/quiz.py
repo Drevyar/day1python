@@ -15,7 +15,7 @@ age = int(input("Enter age: "))
 balance = 1000
 pin = "1234"
 
-entered_pin = input("Enter PIN: ")
+entered_pin = int(input("Enter PIN: "))
 if entered_pin == pin:
     print("PIN accepted")
     while True:
