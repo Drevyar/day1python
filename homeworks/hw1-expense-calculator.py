@@ -77,7 +77,7 @@ while True:
         print(f'Total Expenses : {total_expenses:,.2f} THB')
         print(f'Remaining : {remaining_income:,.2f} THB')
         
-        print('\n\n=== MONTHLY BUDGET REPORT ===')
+        print('\n\n=== SAVING BREAKDOWN ===')
         print(f'Emergency Fund ({emergency_fund_percent:.2f}%) : {emergency_amount:,.2f} THB')
         print(f'Investment ({investment_percent:.2f}%) : {investment_amount:,.2f} THB')
         print(f'Available for Savings : {available_savings:,.2f} THB')
