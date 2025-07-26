@@ -87,4 +87,4 @@ while True:
         
         break #ถ้าค่าทั้งหมดถูกให้ออกจาก loop
     except ValueError:
-        print('Invalid input. Please enter a valid number.')dwdw
+        print('Invalid input. Please enter a valid number.')
