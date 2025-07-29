@@ -7,6 +7,7 @@ while True:
     print("2. Add new hobby")
     print("3. Remove hobby")
     print("4. Update age")
+    print("5. Exit")
     
     choice = input("Enter your choice: ")
 
