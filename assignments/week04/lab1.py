@@ -1,5 +1,5 @@
-person_info = ("Morfor", 19, "Bangkok", "Thailand")
-hobbies = ["Reading", "Traveling"]
+person_info = ("Morfor", 19, "Bangkok", "Thailand") #tuple
+hobbies = ["Reading", "Traveling"] #list
 
 while True:
     print("\n--- Personal Information Manager ---")
