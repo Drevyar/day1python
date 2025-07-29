@@ -36,6 +36,9 @@ while True:
         new_age = int(input("Enter new age: "))
         person_info = (person_info[0], new_age, person_info[2], person_info[3])
         print("Age updated successfully!")
+
+    elif choice == "5":
+        print("Thank you.")
         break
     
     else:
