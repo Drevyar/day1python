@@ -15,7 +15,7 @@ def contact_book():
                 return
         else:
             print(f'Adding new contact: {name}')
-
+            
         phone = input('Enter phone number: ').strip()
         email = input('Enter email address: ').strip()
         category = input('Enter category (family/friend/work/other): ').strip().lower()
