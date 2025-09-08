@@ -123,7 +123,7 @@ print()
 print("\n=== PART 4: DEFAULT PARAMETERS ===")
 
 # Example 1: Function with default parameter
-def greet_with_title(name, title="Mr./Ms."):
+def greet_with_title(name, title="Mr./Ms."): #ผู้ใช้จะส่งมาหรือไม่ส่งมาก้อได้ default
     """Greets person with optional title"""
     print(f"Hello, {title} {name}!")
 
