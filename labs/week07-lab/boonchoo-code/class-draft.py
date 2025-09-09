@@ -1,7 +1,8 @@
 class ClassName:
     """Class docstring"""
     
-    def __init__(self, parameters):
+    #method
+    def __init__(self, parameters): #conductor
         # Constructor method
         self.attribute = value
     
