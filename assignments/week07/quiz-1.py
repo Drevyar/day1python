@@ -37,3 +37,4 @@ class circle:
 circle = circle(7)
 print(circle.get_area())
 print(circle.getperimeter())
+print(rect.get_perimeter())  # Should print 30

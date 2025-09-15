@@ -3,6 +3,8 @@ class ClassName:
     
     #method
     def __init__(self, parameters): #conductor
+
+    def __init__(self, parameters):
         # Constructor method
         self.attribute = value
     
