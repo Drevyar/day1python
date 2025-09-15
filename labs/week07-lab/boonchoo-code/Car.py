@@ -19,7 +19,7 @@ class Car:
         """Method to get car information"""
         return f"{self.year} {self.brand} {self.model} - Mileage: {self.mileage} km"
     
-    @classmethod
+    @classmethod #annotation
     def get_vehicle_type(cls):
         """Class method to access class attributes"""
         return cls.vehicle_type
