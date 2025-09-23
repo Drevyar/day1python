@@ -25,3 +25,31 @@ Example
     Congratulations! You won in 3 attempts!
 
 """
+import random
+
+random_number = random.randint(1, 20)
+print(random_number)
+
+print('Guess my  number ( 1 - 20 ).')
+print('You have only 6 6 attempts. ')
+
+for i in range(1,7):
+    try:
+        guess_number = int(input(f'Attempt {i}/6 - Enter your guess: '))
+        if guess_number <= 0:
+            print('Number must more than 0.')
+    except ValueError:
+        print("Please enter a valid number.")
+        continue
+
+
+    if random_number == guess_number:
+        print('Congalutation.')
+        break
+    elif random_number > guess_number:
+        print(f'More than {guess_number}')
+    else:
+        print(f'Less than {guess_number}')
+
+else:
+    print(f'The correct number is {random_number}.')
